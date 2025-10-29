@@ -12,6 +12,7 @@ public class Curso {
 
     private ArrayList<Estudiante> estudiantesInscritos;
     private ArrayList<Estudiante> estudiantesEnEsperaDeInscripcion;
+    private ArrayList<ActividadSumativa> actividadesSumativas;
 
     // Constructor
     public Curso(String id, String nombre, Boolean estadoDisponible) {

@@ -18,7 +18,7 @@ public class Indicente {
     protected PersonalAcademico beneficiario;
 
     // Constructor
-    public Indicente(int id, Date fecha, String estado, String titulo, String descripcion, ArrayList<String> log_actualizaciones, Date fecha_cerrado, String tipo, Usuario usuario_responsable) {
+    public Indicente(int id, Date fecha, String estado, String titulo, String descripcion, ArrayList<String> log_actualizaciones, Date fecha_cerrado, String tipo, Usuario usuario_responsable, PersonalAcademico beneficiario) {
         this.id = id;
         this.fecha = fecha;
         this.estado = estado;
@@ -28,6 +28,7 @@ public class Indicente {
         this.fecha_cerrado = fecha_cerrado;
         this.tipo = tipo;
         this.usuario_responsable = usuario_responsable;
+        this.beneficiario = beneficiario;
     }
 
     // Getters y Setters
@@ -49,4 +50,6 @@ public class Indicente {
     public void setTipo(String tipo) {this.tipo = tipo;}
     public Usuario getUsuario_responsable() {return usuario_responsable;}
     public void setUsuario_responsable(Usuario usuario_responsable) {this.usuario_responsable = usuario_responsable;}
+    public PersonalAcademico getBeneficiario() {return beneficiario;}
+    public void setBeneficiario(PersonalAcademico beneficiario) {this.beneficiario = beneficiario;}
 }
