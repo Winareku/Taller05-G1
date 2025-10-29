@@ -27,7 +27,7 @@ public class Usuario {
     public ArrayList<String> getIncidentes(){
         return incidentes;
     }
-    public void setArray
+    
 
     public String getUsuario(String usuario){
         return this.usuario;
