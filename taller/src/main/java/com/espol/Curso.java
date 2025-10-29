@@ -1,6 +1,6 @@
 package com.espol;
 
-import java.lang.reflect.Array;
+
 import java.util.ArrayList;
 
 public class Curso {
@@ -32,4 +32,8 @@ public class Curso {
     public void setEstadoDisponible(Boolean estadoDisponible) {this.estadoDisponible = estadoDisponible;}
     public ArrayList<Foro> getForos() {return foros;}
     public void setForos(ArrayList<Foro> foros) {this.foros = foros;}
+    public ArrayList<Estudiante> getEstudiantesInscritos() {return estudiantesInscritos;}
+    public void setEstudiantesInscritos(ArrayList<Estudiante> estudiantesInscritos) {this.estudiantesInscritos = estudiantesInscritos;}
+    public ArrayList<Estudiante> getEstudiantesEnEsperaDeEscripcion() {return estudiantesEnEsperaDeInscripcion;}
+    public void setEstudiantesEnEsperaDeInscripcion(ArrayList<Estudiante> estudiantesEnEsperaDeInscripcion) {this.estudiantesEnEsperaDeInscripcion = estudiantesEnEsperaDeInscripcion;}
 }
