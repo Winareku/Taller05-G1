@@ -13,15 +13,17 @@ public class Curso {
     private ArrayList<Estudiante> estudiantesInscritos;
     private ArrayList<Estudiante> estudiantesEnEsperaDeInscripcion;
     private ArrayList<ActividadSumativa> actividadesSumativas;
+    private Profesor responsable;
 
     // Constructor
-    public Curso(String id, String nombre, Boolean estadoDisponible) {
+    public Curso(String id, String nombre, Boolean estadoDisponible, Profesor responsable) {
         this.id = id;
         this.nombre = nombre;
         this.estadoDisponible = estadoDisponible;
         this.foros = new ArrayList<>();
         this.estudiantesInscritos = new ArrayList<>();
         this.estudiantesEnEsperaDeInscripcion = new ArrayList<>();
+        this.responsable = responsable;
     }
 
     // Getters y Setters
