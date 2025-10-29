@@ -15,6 +15,7 @@ public class Indicente {
     protected String tipo;
 
     private Usuario usuario_responsable;
+    protected PersonalAcademico beneficiario;
 
     // Constructor
     public Indicente(int id, Date fecha, String estado, String titulo, String descripcion, ArrayList<String> log_actualizaciones, Date fecha_cerrado, String tipo, Usuario usuario_responsable) {
