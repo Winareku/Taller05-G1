@@ -2,12 +2,13 @@ package com.espol;
 
 import java.util.ArrayList;
 
-public class Profesor {
+public class Profesor extends Usuario {
     // Atributos
     private ArrayList<Curso> cursosACargo;
 
     // Constructor
-    public Profesor() {
+    public Profesor(String usuario, String contrasena, String nombre, String apellido) {
+        super(usuario, contrasena, nombre, apellido);
         this.cursosACargo = new ArrayList<>();
     }
 
@@ -22,6 +23,5 @@ public class Profesor {
 
     // Getters y Setters
     public ArrayList<Curso> getCursosACargo() {return cursosACargo;}
-
     public void setCursosACargo(ArrayList<Curso> cursosACargo) {this.cursosACargo = cursosACargo;}
 }

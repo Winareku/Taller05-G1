@@ -1,7 +1,13 @@
 package com.espol;
 public class Administrador extends Usuario {
+    // Atributos
+
+    // Constructor
     public Administrador (String usuario, String contrasena, String nombre, String apellido){
-            super(usuario, contrasena, nombre, apellido);}
+            super(usuario, contrasena, nombre, apellido);
+    }
+    
+    // Métodos    
     public void crearUsuarioConRol(String usuario, String contrasena){
         //Algo
     }
