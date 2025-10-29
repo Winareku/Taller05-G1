@@ -19,7 +19,8 @@ public class Curso {
         this.nombre = nombre;
         this.estadoDisponible = estadoDisponible;
         this.foros = new ArrayList<>();
-
+        this.estudiantesInscritos = new ArrayList<>();
+        this.estudiantesEnEsperaDeInscripcion = new ArrayList<>();
     }
 
     // Getters y Setters
